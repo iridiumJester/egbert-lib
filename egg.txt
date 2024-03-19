@@ -1,0 +1,10 @@
+A {adj1} {noun1} stands in {pronoun_obj} bedroom. It just so happens that today, the {number} of {month}, {year}, is this {adj1} {noun1}'s birthday. 
+Though it was {oh i could do some calculating. for this.} years ago {pronoun_sub} was given life, it is only today {pronoun_sub} will be given a name!
+
+inputs should be in ALL CAPS.
+
+Your name is {name}. As was previously mentioned it is your BIRTHDAY. A number of {plural_noun1} are scattered about your room. 
+You have a variety of INTERESTS. You have a passion for REALLY {adj2} {plural_noun2}. You like to {verb1} {plural_noun3} but you are NOT VERY GOOD AT IT. 
+You have a fondness for {noun2}, and are an aspiring {adj3} {noun3}. You also like to {verb2} {plural_noun4} sometimes.
+
+Your name is JOHN. As was previously mentioned it is your BIRTHDAY. A number of CAKES are scattered about your room. You have a variety of INTERESTS. You have a passion for REALLY TERRIBLE MOVIES. You like to program computers but you are NOT VERY GOOD AT IT. You have a fondness for PARANORMAL LORE, and are an aspiring AMATEUR MAGICIAN. You also like to play GAMES sometimes.

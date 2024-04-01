@@ -13,6 +13,8 @@ def long_wait():
     time.sleep(4)
 def clear():
     os.system('cls')
+def line_break():
+    print("\n")
 
 #welcome user
 print("Greetings, user. Would you like to play a game? A word game?")
@@ -63,8 +65,8 @@ clear()
 print(sentence1)
 long_wait()
 print(sentence2)
+line_break()
 long_wait()
-print("")
 print(sentence3)
 long_wait()
 print(sentence4)
@@ -72,8 +74,8 @@ long_wait()
 print(sentence5)
 long_wait()
 print(sentence6)
+line_break()
 wait()
-print("")
 input("Press enter to continue.")
 clear()
 

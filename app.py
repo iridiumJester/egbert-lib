@@ -36,7 +36,8 @@ date = input("A date (Ex: 7th of July, 2007): ")
 num = int(input("A number below 100: "))
 clear()
 print("Prompts marked with (C) should be in ALL CAPS.")
-name = input("A first name (C): ")
+first_name = input("A first name (C): ")
+last_name = input("A last name (C): ")
 plural_noun1 = input("A plural noun (C): ")
 plural_noun2 = input("Another plural noun (C): ")
 adj2 = input("An adjective (C): ")
@@ -54,7 +55,7 @@ clear()
 #build story
 sentence1 = "A " + adj1 + " " + noun1 + " stands in " + pronoun_obj + " bedroom. It just so happens that today, the " + date + ", is this " + adj1 + " " + noun1 + "'s birthday."
 sentence2 = "Though it was " + str(num) + " years ago " + pronoun_sub + " was given life, it is only today " + pronoun_sub + " will be given a name!"
-sentence3 = "Your name is " + name + ". As was previously mentioned it is your BIRTHDAY."
+sentence3 = "Your name is " + first_name + ". As was previously mentioned it is your BIRTHDAY."
 sentence4 = "A number of " + plural_noun1 + " are scattered about your room. You have a variety of " + plural_noun2 + "."
 sentence5 = "You have a passion for REALLY " + adj2 + " " + plural_noun3 + ". You like to " + verb1 + " " + plural_noun4 + " but you are NOT VERY GOOD AT IT."
 sentence6 = "You have a fondness for " + noun2 + ", and are an aspiring " + adj3 + " " + noun3 + ". You also like to " + verb2 + " " + plural_noun5 + " sometimes."

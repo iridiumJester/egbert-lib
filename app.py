@@ -7,11 +7,10 @@ Mad Lib-like project.
 #import statements and define functions
 import time
 import os
-def wait_clear():
-    time.sleep(3)
-    os.system('cls')
 def wait():
-    time.sleep(3)
+    time.sleep(2.5)
+def long_wait():
+    time.sleep(4)
 def clear():
     os.system('cls')
 
@@ -52,15 +51,37 @@ clear()
 
 #build story
 sentence1 = "A " + adj1 + " " + noun1 + " stands in " + pronoun_obj + " bedroom. It just so happens that today, the " + date + ", is this " + adj1 + " " + noun1 + "'s birthday."
-sentence2 = "Though it was " + num + " years ago " + pronoun_sub + " was given life, it is only today " + pronoun_sub + " will be given a name!"
+sentence2 = "Though it was " + str(num) + " years ago " + pronoun_sub + " was given life, it is only today " + pronoun_sub + " will be given a name!"
 sentence3 = "Your name is " + name + ". As was previously mentioned it is your BIRTHDAY."
 sentence4 = "A number of " + plural_noun1 + " are scattered about your room. You have a variety of " + plural_noun2 + "."
 sentence5 = "You have a passion for REALLY " + adj2 + " " + plural_noun3 + ". You like to " + verb1 + " " + plural_noun4 + " but you are NOT VERY GOOD AT IT."
 sentence6 = "You have a fondness for " + noun2 + ", and are an aspiring " + adj3 + " " + noun3 + ". You also like to " + verb2 + " " + plural_noun5 + " sometimes."
 
-
 #show results
 input("Press enter to show results.")
+clear()
+print(sentence1)
+long_wait()
+print(sentence2)
+long_wait()
+print("")
+print(sentence3)
+long_wait()
+print(sentence4)
+long_wait()
+print(sentence5)
+long_wait()
+print(sentence6)
+wait()
+print("")
+input("Press enter to continue.")
+clear()
 
 #send the user your FONDEST regards and quit
-input("Sorry for Homestucking you. Press enter to get the heck out of here.")
+user_review = input("Did you like my awesome program? yes/no: ")
+if user_review == "yes":
+    print("Awwwww, thanks! :D")
+else:
+    print(":(")
+wait()
+input("Press enter to quit.")

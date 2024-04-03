@@ -36,15 +36,17 @@ date = input("A date (Ex: 7th of July, 2007): ")
 num = int(input("A number below 100: "))
 clear()
 print("Prompts marked with (C) should be in ALL CAPS.")
+silly_name = input("A very silly full name (C): ")
 first_name = input("A first name (C): ")
 last_name = input("A last name (C): ")
 plural_noun1 = input("A plural noun (C): ")
+clear()
 plural_noun2 = input("Another plural noun (C): ")
 adj2 = input("An adjective (C): ")
 plural_noun3 = input("Another another plural noun (C): ")
 verb1 = input("A verb NOT ending in -ing: ")
-clear()
 plural_noun4 = input("Another another another plural noun: ")
+clear()
 noun2 = input("An interest (C): ")
 adj3 = input("An adjective (C): ")
 noun3 = input("A noun (C): ")
@@ -55,6 +57,7 @@ clear()
 #build story
 sentence1 = "A " + adj1 + " " + noun1 + " stands in " + pronoun_obj + " bedroom. It just so happens that today, the " + date + ", is this " + adj1 + " " + noun1 + "'s birthday."
 sentence2 = "Though it was " + str(num) + " years ago " + pronoun_sub + " was given life, it is only today " + pronoun_sub + " will be given a name!"
+NAMING = "Enter name JHDSJKHADKJAHSJKDHTRY AGAIN!!!DSJKDJKLSAJK"
 sentence3 = "Your name is " + first_name + ". As was previously mentioned it is your BIRTHDAY."
 sentence4 = "A number of " + plural_noun1 + " are scattered about your room. You have a variety of " + plural_noun2 + "."
 sentence5 = "You have a passion for REALLY " + adj2 + " " + plural_noun3 + ". You like to " + verb1 + " " + plural_noun4 + " but you are NOT VERY GOOD AT IT."

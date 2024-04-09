@@ -57,7 +57,8 @@ clear()
 #build story
 sentence1 = "A " + adj1 + " " + noun1 + " stands in " + pronoun_obj + " bedroom. It just so happens that today, the " + date + ", is this " + adj1 + " " + noun1 + "'s birthday."
 sentence2 = "Though it was " + str(num) + " years ago " + pronoun_sub + " was given life, it is only today " + pronoun_sub + " will be given a name!"
-NAMING = "Enter name JHDSJKHADKJAHSJKDHTRY AGAIN!!!DSJKDJKLSAJK"
+naming1 = "Enter name: "
+naming2 = "TRY AGAIN!!!: "
 sentence3 = "Your name is " + first_name + ". As was previously mentioned it is your BIRTHDAY."
 sentence4 = "A number of " + plural_noun1 + " are scattered about your room. You have a variety of " + plural_noun2 + "."
 sentence5 = "You have a passion for REALLY " + adj2 + " " + plural_noun3 + ". You like to " + verb1 + " " + plural_noun4 + " but you are NOT VERY GOOD AT IT."
@@ -70,6 +71,14 @@ print(sentence1)
 long_wait()
 print(sentence2)
 line_break()
+long_wait()
+print(naming1)
+print(silly_name)
+wait()
+print(naming2)
+print(first_name + " " + last_name)
+line_break()
+wait()
 long_wait()
 print(sentence3)
 long_wait()
